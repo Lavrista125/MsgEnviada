@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #0a0a0a, #db0404);
+    background-size: cover;
+}
+.message-container {
+    text-align: center;
+    background-color: rgba(53, 42, 42, 0.9);
+    color: #e3d6d6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 576px) {
+    .message-container {
+        padding: 10px; 
+    }
+}
